@@ -14,10 +14,25 @@ import java.util.Scanner;
 public class FactorizorPlus {
 
     public static void main(String[] args) {
+        boolean keepRunning = true;
+        FactorizedNumber[] previous = new FactorizedNumber[10];
+        int place = 0;
+
+        while (keepRunning) {
+            FactorizedNumber num = new FactorizedNumber(getNumber());
+            displayFactors(num);
+            if (place >= 10) {
+                place = 0;
+            }
+            previous[place++] = num;
+
+            keepRunning = getContinue();
+        }
         
-        FactorizedNumber num = new FactorizedNumber(getNumber());
-        displayFactors(num);
-        
+        for(FactorizedNumber current: previous) {
+            if(current != null)
+                displayFactors(current);
+        }
 
     }
 
@@ -40,10 +55,16 @@ public class FactorizorPlus {
         } while (number == 0);
         return number;
     }
-    
+
     private static void displayFactors(FactorizedNumber factored) {
-        
+
         System.out.println(factored.toString());
-        
+
+    }
+
+    private static boolean getContinue() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hit q to quit, anything else to run again");
+        return !sc.nextLine().equalsIgnoreCase("q");
     }
 }
