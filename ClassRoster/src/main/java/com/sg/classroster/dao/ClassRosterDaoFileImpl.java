@@ -9,6 +9,6 @@ package com.sg.classroster.dao;
  *
  * @author agalloway
  */
-public class ClassRosterDaoFileImpl {
+public class ClassRosterDaoFileImpl implements ClassRosterDao {
     
 }
