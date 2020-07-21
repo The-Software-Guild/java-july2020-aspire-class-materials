@@ -1,0 +1,13 @@
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/dao/ClassRosterDaoFileImpl.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/ui/ClassRosterView.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/service/ClassRosterServiceLayer.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/service/ClassRosterServiceLayerImpl.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/dao/ClassRosterAuditDaoFileImpl.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/dao/ClassRosterPersistenceException.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/dto/Student.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/service/ClassRosterDataValidationException.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/controller/ClassRosterController.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/dao/ClassRosterDao.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/service/ClassRosterDuplicateIdException.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/dao/ClassRosterAuditDao.java
+/Users/agalloway/JavaAspireS29/java-july2020-aspire-class-materials/classrosterUpdated/src/main/java/com/aspire/classroster/App.java
