@@ -14,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 
 /**
@@ -38,7 +39,7 @@ public class ClassRosterDaoFileImplTest {
     /**
      * Test of addStudent method, of class ClassRosterDaoFileImpl.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testAddStudent() throws Exception {
         // Create our method test inputs
         String studentId = "0001";
@@ -71,7 +72,7 @@ public class ClassRosterDaoFileImplTest {
     /**
      * Test of getAllStudents method, of class ClassRosterDaoFileImpl.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testGetAllStudents() throws Exception {
         // Create our first student
         Student firstStudent = new Student("0001");
@@ -107,7 +108,7 @@ public class ClassRosterDaoFileImplTest {
 //    /**
 //     * Test of getStudent method, of class ClassRosterDaoFileImpl.
 //     */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testGetStudent() throws Exception {
         System.out.println("getStudent");
         String studentId = "";
@@ -121,7 +122,7 @@ public class ClassRosterDaoFileImplTest {
     /**
      * Test of removeStudent method, of class ClassRosterDaoFileImpl.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testRemoveStudent() throws Exception {
         // Create two new students
         Student firstStudent = new Student("0001");
