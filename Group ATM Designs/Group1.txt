@@ -1,0 +1,36 @@
+Menu
+
+Print-Welcome to Our Bank
+
+Please enter Account Number/Pin Number-
+	Test isValidAccount and isValidPin
+
+I want to...
+	...Check Balance	
+	...Transfer Funds
+		...Please enter amount you would 				like	
+			...Which account are you 				transferring to?
+			...Which account are you 						transferring from?		
+	...Deposit Funds
+		...Enter amount to be deposited
+			...Account type
+	...Withdraw Funds
+		...Enter amount you would like to withdraw
+			...Account type
+	...Exit menu
+===========================================================
+Would you like to...
+	...Check Balance	
+	...Transfer Funds
+		Test isBalanceSufficient, else
+			ERROR thrown
+		Test isBalanceBefore < currentBalance 
+		Test isBalanceBefore > currentBalance
+		
+	...Deposit Funds
+		Test isBalanceBefore < currentBalance
+	...Withdraw Funds
+		Test input<=Balance
+		if input> Balance, ERROR message
+		Test isBalanceBefore > currentBalance
+	...Exit menu
